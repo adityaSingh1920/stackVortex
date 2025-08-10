@@ -51,3 +51,6 @@ export const getcoursesapi =
 {
   GET_COURSES_API : `${BASE_URL}/api/v1/auth/Profile/getEnrolledCourses`
 }
+export const profileEndpoints = {
+  GET_USER_ENROLLED_COURSES_API: `${BASE_URL}/api/v1/profile/getEnrolledCourses`,
+};

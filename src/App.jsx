@@ -15,6 +15,8 @@ import Myprofile from './components/core/Dashboard/Myprofile'
 import DashBoard from './pages/Dashboard'
 import PrivateRoute from './components/auth/PrivateRoute'
 import Settings from './pages/setting'
+import EnrolledCourses from './components/core/Dashboard/EnrolledCourses'
+import Cart from './components/core/Dashboard/Cart'
 
 
 const App = () => {
@@ -76,6 +78,14 @@ const App = () => {
             path: "settings", // 👈 move settings route here
             element: <Settings />,
           },
+          {
+            path: "enrolled-courses",
+            element: <EnrolledCourses/>
+          },
+          {
+            path:"cart",
+            element:<Cart/>
+          }
           ]
         }
       ]
