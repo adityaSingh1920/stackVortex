@@ -1,6 +1,6 @@
 import React from 'react'
 import HighlightText from './HighlightText'
-import img1 from '../../../assets/Images/know_your_progress.svg'
+import img1 from '../../../assets/Images/Know_your_progress.svg'
 import img2 from '../../../assets/Images/Plan_your_lessons.svg'
 import img3 from '../../../assets/Images/Compare_with_others.svg'
 import CtButton from './CtButton'
