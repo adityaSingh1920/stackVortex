@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import img from '../../assets/Images/loginimg.jpg';
+import img from '../../assets/Images/loginImg.jpg';
 import HighlightText from '../core/Homeapge/HighlightText';
 import CtButton from '../core/Homeapge/CtButton';
 import { useForm } from "react-hook-form";

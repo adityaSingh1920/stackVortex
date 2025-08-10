@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { removeItems, resetCart } from "../../../Redux/Slices/cartSlice"; // ✅ fixed path
 import { toast } from "react-hot-toast";
 
-// Mock data (replace later with API)
+
 const mockCourses = [
   {
     _id: "1",
